@@ -1,0 +1,44 @@
+{
+  "name": " Gayatri Shirur",
+  "title": "Full Stack Developer | QA",
+  "description": "A passionate Full Stack Developer with expertise in building modern web applications. I specialize in React, Node.js, and creating beautiful user experiences.",
+  "skills": [
+    "React",
+    "JavaScript",
+    "Node.js",
+    "CSS",
+    "HTML",
+    "MongoDB"
+  ],
+  "avatar": "👨‍💻",
+  "email": "gayatri.shirur@gmail.com",
+  "location": "India",
+  "social": {
+    "github": "https://github.com/gayatri-shirur/portfolio",
+    "linkedin": "https://www.linkedin.com/in/gayatri-shirur-38b23a231/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  "professionalHistory": [
+    {
+      "role": "Software Developer and QA",
+      "Instuate": "Q Spiders",
+      "location": "Bangalore",
+      "Duration": "6 Months"
+    }
+  ],
+  "education": [
+    {
+      "degree": "BE",
+      "institution": "South East Asian College of Engineering and Technology",
+      "location": "Bangalore",
+      "startYear": "2022",
+      "endYear": "2025"
+    },
+    {
+      "degree": "Diploma",
+      "institution": "KH Kabbur",
+      "location": "Dharwad",
+      "startYear": "2016",
+      "endYear": "2022"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Web Applications",
+  "type": "webapp",
+  "description": "Full-stack web applications built with modern technologies",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Music Player App",
+      "description": "Developed a dynamic music player interface inspired by Spotify, with core functionalities including play, pause, and track browsing.",
+      "technologies": ["React.js", "HTML", "CSS"],
+      "type": "webapp",
+      "link": "#",
+      "projectUrl": "https://remarkable-sunburst-3d4f36.netlify.app/ ",
+      "featured": true,
+      "image": "https://png.pngtree.com/png-vector/20221001/ourmid/pngtree-music-player-icon-png-image_6248707.png",
+      "screenshots": [
+      ],
+      "documents": {
+        "hld": "#",
+        "lld": "#"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Virtual Drum Kit",
+      "description": "Built a responsive virtual drum kit application that allows users to play sounds by clicking or pressing keyboard keys. Mapped keyboard keys (A, S, D, H, J, K, L) to distinct drum sounds by implementing JavaScript event listeners for interactive performance.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "type": "webapp",
+      "link": "#",
+      "projectUrl": "https://verdant-alpaca-d1aa25.netlify.app/ ",
+      "btnText": "Launch App",
+      "featured": true,
+      "image": "https://play-lh.googleusercontent.com/oK0ADPEa1z-qxGm5R2Dfp_Y34lK1_5rtgS0HVKE96Jj8IGtdg8q_5wIiFXpUWCN-eAI",
+      "screenshots": [],
+      "documents": {
+        "hld": "#",
+        "lld": "#"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Shoe Store E-commerce Frontend",
+      "description": "Developed a functional and responsive online store frontend for users to browse and view shoe products.Engineered a clean user interface focusing on product visibility and ease of navigation.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "type": "webapp",
+      "link": "#",
+      "projectUrl": "https://benevolent-kheer-f3f8f4.netlify.app/ ",
+      "featured": false,
+      "image": "https://i.pinimg.com/736x/69/3a/92/693a9216bddcda01f3dd61bca955c761.jpg",
+      "screenshots": [],
+      "documents": {
+        "hld": "#",
+        "lld": "#"
+      }
+    }
+  ]
+}

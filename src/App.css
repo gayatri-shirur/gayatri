@@ -1,0 +1,150 @@
+.App {
+  transition: all 0.3s ease;
+  margin-left: 80px; /* Default for collapsed sidebar */
+  transition: margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.App.sidebar-pinned {
+  margin-left: 280px; /* When sidebar is expanded and pinned */
+}
+
+.app-wrapper {
+  min-height: 100vh;
+}
+
+/* Smooth scrolling for all sections */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Glass effect animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.glass-effect {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Loading animation for glassmorphism */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.8);
+}
+
+/* Enhanced glassmorphism effects */
+.glass-theme {
+  position: relative;
+}
+
+.glass-theme::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Animated gradient background for liquid glass theme */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  transition: background 0.5s ease;
+}
+
+/* Add subtle animations to glass cards */
+.glass-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  animation: shine 8s infinite;
+}
+
+@keyframes shine {
+  0% {
+    top: -50%;
+    left: -50%;
+  }
+  50% {
+    top: 150%;
+    left: 150%;
+  }
+  100% {
+    top: -50%;
+    left: -50%;
+  }
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 70px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .theme-toggle {
+    display: none;
+  }
+}
